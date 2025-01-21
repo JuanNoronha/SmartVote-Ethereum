@@ -1,0 +1,23 @@
+technologies used:
+frontend: reactjs , tailwindcss, redux toolkit
+backend: nodejs, expressjs, mongodb, ganache(for testing environment)
+
+Project setup:
+create .env file with this content and your api url
+DB_URI=""
+JWT_ACCESS_SECRET=""
+JWT_REFRESH_SECRET=""
+USER="" ( your email for messaging)
+PASS="" ( your passkey for that account )
+IMAGE_API=""
+
+for running project:
+1.    cd frontend 
+      npm i 
+  `   npm run dev
+
+2.    cd backend
+      npm i
+      nodemon server
+
+3.    ganache

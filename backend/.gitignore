@@ -1,0 +1,9 @@
+node_modules
+.env
+000085.log
+000086.old
+LOG.ldb
+CURRENT
+LOCK
+LOG
+MANIFEST-000083

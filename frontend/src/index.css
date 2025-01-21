@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+   
+    @apply  box-border p-0 m-0 bg-neutral ;
+}  
+
+body {
+    @apply overflow-auto;
+}
+
+
+@layer components {
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.button {
+    @apply  focus:outline-none rounded-lg font-medium transition-colors duration-100 text-base py-0 px-3 ease-in-out cursor-pointer leading-tight tracking-tight
+}
+
+.field {
+    @apply w-full px-3 py-2 focus:ring-1 focus:ring-secondary   leading-4 font-[500] caret-slate-500 placeholder-slate-400 shadow-sm border-solid border-[1px] focus:outline-none border-slate-300 text-primary-light rounded-md text-sm   tracking-wide;
+}
+
+.selection {
+    @apply border-t-secondary/30 text-primary border-b-0 bg-neutral;
+}
+
+}
